@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightskyblue;
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: sans-serif;
+  padding-top: 50px;
+  margin:0;
+}
+.nav-bar{
+  background-color: white;
+  position: fixed;
+  top:0;
+  width:100%;
+  text-align: center;
+  margin:0.5rem 0;
+  padding: 0.5rem 0;
+}
+.nav-bar a {
+  color: black;
+  padding: 0.5rem;
+  margin:0 2rem;
+}
+.nav-bar a:hover {
+  background-color: black;
+  color: white;
+}
+.card{
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 10px;
+  width: 50%;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.icons ul{
+list-style-type: none;
+padding:0;
+margin:0;
+display: flex;
+}
+.icons li{
+padding:0 1rem;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
+.footer-nav-bar{
+  background-color: white;
+  font-size: small;
+  width:100%;
+  text-align: center;
+  padding: 0.3rem 0;
+}
+.footer-nav-bar a {
+  color: black;
+  padding: 0.5rem;
+  margin:0 2rem;
+  color: black;
+  padding: 0.3rem;
+  margin: 2rem;
+}
+.footer-nav-bar a:hover {
+  background-color: black;
+  color: white;
+}

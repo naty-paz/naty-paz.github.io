@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/f141bb1005.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <form id="loginForm"
+        action="https://formspree.io/f/mwkjnryr" method="post">
+        <input type="hidden" name="send_to" value="zoltymiri@hotmail.com">
+        <fieldset>
+            <legend>Contact us</legend>
+            <label for="firstname">*First name</label>
+            <input type="text" id="firstname" name="firstname" required placeholder="Your first name">
+            
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name">
+            
+            <label for="birthday">*Birthday</label>
+            <input type="date" id="birthday" name="birthday" required placeholder="Your birthday date">
+            
+            <label for="Email">*Email</label>
+            <input type="text" id="email" name="email" required placeholder="Your email" class="e-mail">
+
+            <label for="comments">*Add your comment:</label>
+            <textarea id="comments" name="comments" required placeholder="Your comment"></textarea>
+
+            <div class="submit-button">
+                <button id="loginBtn"
+                name="loginBtn" type="submit" disabled>Submit</button>
+            </div>
+        </fieldset>          
+        </form>
+    </section>
+    <footer>
+        <nav class="footer-nav-bar">
+            <a href="../index.html">Home</a>
+            <a href="/pages/about.html">About</a>
+            <a href="/pages/contact.html">Contact</a>
+        </nav>
+      </footer>
+    <script src="../js/form.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+</html>

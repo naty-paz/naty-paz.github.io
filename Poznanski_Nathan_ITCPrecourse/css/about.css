@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    background-color: lightskyblue;
+    font-family: sans-serif;
+    padding-top: 70px;
+    margin:0 ;
+  }
+  .nav-bar{
+    background-color: white;
+    position: fixed;
+    top:0;
+    width:100%;
+    text-align: center;
+    margin:0.5rem 0;
+    padding: 0.5rem 0;
+  }
+  .nav-bar a {
+    color: black;
+    padding: 0.5rem;
+    margin:0 2rem;
+  }
+  .nav-bar a:hover {
+    background-color: black;
+    color: white;
+  }
+  .about-me{
+    background-color: lightgray;
+    width: 80%;
+    border-radius: 10px;
+    padding:1rem;
+    margin: 1rem auto;
+
+  }
+  h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size:xx-large;
+  }
+  h2{
+    font-family: 'Architects Daughter', cursive;
+  }
+.birthplace{
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    padding:1rem;
+    margin: 1rem auto;
+}
+.placeivisit{
+  background-color: lightgray;
+  border-radius: 10px;
+    width: 80%;
+    padding:1rem;
+    margin:auto;
+}
+
+.gallery-map{
+  display:none;
+}
+.active{
+  display: block;
+}
+.map-gallery{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  background-color: lightskyblue;
+  width: 80px;
+  padding:0.3rem;
+  margin: 0.5rem 0.5rem 0 0.5rem ;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:disabled{
+  background-color: #777;
+  cursor: not-allowed;
+}
+.prev{
+ 
+}
+
+.footer-nav-bar{
+  background-color: white;
+  font-size: small;
+  width:100%;
+  text-align: center;
+  padding: 0.3rem 0;
+  margin: 1rem 0;
+}
+.footer-nav-bar a {
+  color: black;
+  padding: 0.3rem;
+  margin:0 2rem;
+}
+.footer-nav-bar a:hover {
+  background-color: black;
+  color: white;
+}
